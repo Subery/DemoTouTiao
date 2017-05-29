@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0632F8C91E866CDE002A7058 /* TTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0632F8C81E866CDE002A7058 /* TTButton.swift */; };
+		0632F8D11E8681EE002A7058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0632F8D01E8681EE002A7058 /* AppDelegate.swift */; };
+		0632F8D31E8681EE002A7058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0632F8D21E8681EE002A7058 /* Assets.xcassets */; };
+		0632F8D61E8681EE002A7058 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0632F8D41E8681EE002A7058 /* MainMenu.xib */; };
+		0632F8DE1E8682F8002A7058 /* TouTiaoLauncher.app in Resources */ = {isa = PBXBuildFile; fileRef = 0632F8CE1E8681EE002A7058 /* TouTiaoLauncher.app */; };
+		0632F8E41E868363002A7058 /* TouTiaoLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0632F8CE1E8681EE002A7058 /* TouTiaoLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		06541A2B1CBB6074004312AC /* TTModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06541A2A1CBB6074004312AC /* TTModel.swift */; };
+		06541A2E1CBB61B2004312AC /* NetWorkFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06541A2D1CBB61B2004312AC /* NetWorkFetcher.swift */; };
+		0673B73B1CAE2D06001FBF40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B73A1CAE2D06001FBF40 /* AppDelegate.swift */; };
+		0673B73D1CAE2D06001FBF40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0673B73C1CAE2D06001FBF40 /* Assets.xcassets */; };
+		0673B7401CAE2D06001FBF40 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0673B73E1CAE2D06001FBF40 /* MainMenu.xib */; };
+		0673B74B1CAE2D06001FBF40 /* TouTiaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B74A1CAE2D06001FBF40 /* TouTiaoTests.swift */; };
+		0673B7561CAE2D06001FBF40 /* TouTiaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B7551CAE2D06001FBF40 /* TouTiaoUITests.swift */; };
+		0673B7681CAE32E1001FBF40 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0673B7671CAE32E1001FBF40 /* MainViewController.swift */; };
+		06953AEE1CBCB3040001D698 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06953AED1CBCB3040001D698 /* String+Extension.swift */; };
+		74355EC41CCA43BA0029999B /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74355EC31CCA43BA0029999B /* EventMonitor.swift */; };
+		7484FE131CCF692300560763 /* NSDate+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484FE121CCF692300560763 /* NSDate+Extension.swift */; };
+		7484FE161CCF72B300560763 /* SettingMenuAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7484FE151CCF72B300560763 /* SettingMenuAction.swift */; };
+		74D0AD2B1CC7A47F00126706 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D0AD291CC7A47F00126706 /* PopViewController.swift */; };
+		74D0AD2C1CC7A47F00126706 /* PopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74D0AD2A1CC7A47F00126706 /* PopViewController.xib */; };
+		74E7E49B1CCCB64B00DCAE46 /* TTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E7E49A1CCCB64B00DCAE46 /* TTCell.swift */; };
+		FC007F7B55726384DC59FE30 /* Pods_TouTiao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C000B9EB5493E17915C8E77D /* Pods_TouTiao.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0632F8DF1E8682F8002A7058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0673B72F1CAE2D06001FBF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0632F8CD1E8681EE002A7058;
+			remoteInfo = TouTiaoLauncher;
+		};
+		0673B7471CAE2D06001FBF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0673B72F1CAE2D06001FBF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0673B7361CAE2D06001FBF40;
+			remoteInfo = TouTiao;
+		};
+		0673B7521CAE2D06001FBF40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0673B72F1CAE2D06001FBF40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0673B7361CAE2D06001FBF40;
+			remoteInfo = TouTiao;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0632F8E31E86835A002A7058 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				0632F8E41E868363002A7058 /* TouTiaoLauncher.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		060165521E82036D0041842D /* TouTiao.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouTiao.entitlements; sourceTree = "<group>"; };
+		0632F8C81E866CDE002A7058 /* TTButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTButton.swift; sourceTree = "<group>"; };
+		0632F8CE1E8681EE002A7058 /* TouTiaoLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouTiaoLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0632F8D01E8681EE002A7058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0632F8D21E8681EE002A7058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0632F8D51E8681EE002A7058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0632F8D71E8681EE002A7058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0632F8DB1E86823C002A7058 /* TouTiaoLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TouTiaoLauncher.entitlements; sourceTree = "<group>"; };
+		06541A2A1CBB6074004312AC /* TTModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTModel.swift; sourceTree = "<group>"; };
+		06541A2D1CBB61B2004312AC /* NetWorkFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkFetcher.swift; sourceTree = "<group>"; };
+		0673B7371CAE2D06001FBF40 /* TouTiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouTiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0673B73A1CAE2D06001FBF40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0673B73C1CAE2D06001FBF40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0673B73F1CAE2D06001FBF40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0673B7411CAE2D06001FBF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0673B7461CAE2D06001FBF40 /* TouTiaoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouTiaoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0673B74A1CAE2D06001FBF40 /* TouTiaoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouTiaoTests.swift; sourceTree = "<group>"; };
+		0673B74C1CAE2D06001FBF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0673B7511CAE2D06001FBF40 /* TouTiaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouTiaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0673B7551CAE2D06001FBF40 /* TouTiaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouTiaoUITests.swift; sourceTree = "<group>"; };
+		0673B7571CAE2D06001FBF40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0673B7671CAE32E1001FBF40 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		06953AED1CBCB3040001D698 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		57BAB250D52BE0BE8AE45323 /* Pods-TouTiao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouTiao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TouTiao/Pods-TouTiao.debug.xcconfig"; sourceTree = "<group>"; };
+		74355EC31CCA43BA0029999B /* EventMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		7484FE121CCF692300560763 /* NSDate+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Extension.swift"; sourceTree = "<group>"; };
+		7484FE151CCF72B300560763 /* SettingMenuAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingMenuAction.swift; sourceTree = "<group>"; };
+		74D0AD291CC7A47F00126706 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
+		74D0AD2A1CC7A47F00126706 /* PopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopViewController.xib; sourceTree = "<group>"; };
+		74E7E49A1CCCB64B00DCAE46 /* TTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TTCell.swift; sourceTree = "<group>"; };
+		975E04C1B55E348097BD00B9 /* Pods-TouTiao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TouTiao.release.xcconfig"; path = "Pods/Target Support Files/Pods-TouTiao/Pods-TouTiao.release.xcconfig"; sourceTree = "<group>"; };
+		C000B9EB5493E17915C8E77D /* Pods_TouTiao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TouTiao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0632F8CB1E8681EE002A7058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673B7341CAE2D06001FBF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC007F7B55726384DC59FE30 /* Pods_TouTiao.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673B7431CAE2D06001FBF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673B74E1CAE2D06001FBF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0632F8CF1E8681EE002A7058 /* TouTiaoLauncher */ = {
+			isa = PBXGroup;
+			children = (
+				0632F8DB1E86823C002A7058 /* TouTiaoLauncher.entitlements */,
+				0632F8D01E8681EE002A7058 /* AppDelegate.swift */,
+				0632F8D21E8681EE002A7058 /* Assets.xcassets */,
+				0632F8D41E8681EE002A7058 /* MainMenu.xib */,
+				0632F8D71E8681EE002A7058 /* Info.plist */,
+			);
+			path = TouTiaoLauncher;
+			sourceTree = "<group>";
+		};
+		06541A271CBB5EDE004312AC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				06953AED1CBCB3040001D698 /* String+Extension.swift */,
+				7484FE121CCF692300560763 /* NSDate+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		06541A281CBB5EDE004312AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				06541A2A1CBB6074004312AC /* TTModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		06541A291CBB5EDE004312AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74D0AD291CC7A47F00126706 /* PopViewController.swift */,
+				74D0AD2A1CC7A47F00126706 /* PopViewController.xib */,
+				74E7E49A1CCCB64B00DCAE46 /* TTCell.swift */,
+				7484FE151CCF72B300560763 /* SettingMenuAction.swift */,
+				0632F8C81E866CDE002A7058 /* TTButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		06541A2C1CBB619B004312AC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				06541A2D1CBB61B2004312AC /* NetWorkFetcher.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		0673B72E1CAE2D06001FBF40 = {
+			isa = PBXGroup;
+			children = (
+				0673B7391CAE2D06001FBF40 /* TouTiao */,
+				0673B7491CAE2D06001FBF40 /* TouTiaoTests */,
+				0673B7541CAE2D06001FBF40 /* TouTiaoUITests */,
+				0632F8CF1E8681EE002A7058 /* TouTiaoLauncher */,
+				0673B7381CAE2D06001FBF40 /* Products */,
+				6452FF8988F66956159D5EB8 /* Pods */,
+				5616DC1A69F16F3000F21CFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0673B7381CAE2D06001FBF40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0673B7371CAE2D06001FBF40 /* TouTiao.app */,
+				0673B7461CAE2D06001FBF40 /* TouTiaoTests.xctest */,
+				0673B7511CAE2D06001FBF40 /* TouTiaoUITests.xctest */,
+				0632F8CE1E8681EE002A7058 /* TouTiaoLauncher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0673B7391CAE2D06001FBF40 /* TouTiao */ = {
+			isa = PBXGroup;
+			children = (
+				060165521E82036D0041842D /* TouTiao.entitlements */,
+				74355EC21CCA439B0029999B /* Service */,
+				06541A2C1CBB619B004312AC /* Network */,
+				06541A271CBB5EDE004312AC /* Extension */,
+				06541A281CBB5EDE004312AC /* Model */,
+				06541A291CBB5EDE004312AC /* View */,
+				0673B73A1CAE2D06001FBF40 /* AppDelegate.swift */,
+				0673B7671CAE32E1001FBF40 /* MainViewController.swift */,
+				0673B73C1CAE2D06001FBF40 /* Assets.xcassets */,
+				0673B73E1CAE2D06001FBF40 /* MainMenu.xib */,
+				0673B7411CAE2D06001FBF40 /* Info.plist */,
+			);
+			path = TouTiao;
+			sourceTree = "<group>";
+		};
+		0673B7491CAE2D06001FBF40 /* TouTiaoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0673B74A1CAE2D06001FBF40 /* TouTiaoTests.swift */,
+				0673B74C1CAE2D06001FBF40 /* Info.plist */,
+			);
+			path = TouTiaoTests;
+			sourceTree = "<group>";
+		};
+		0673B7541CAE2D06001FBF40 /* TouTiaoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0673B7551CAE2D06001FBF40 /* TouTiaoUITests.swift */,
+				0673B7571CAE2D06001FBF40 /* Info.plist */,
+			);
+			path = TouTiaoUITests;
+			sourceTree = "<group>";
+		};
+		5616DC1A69F16F3000F21CFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C000B9EB5493E17915C8E77D /* Pods_TouTiao.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6452FF8988F66956159D5EB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57BAB250D52BE0BE8AE45323 /* Pods-TouTiao.debug.xcconfig */,
+				975E04C1B55E348097BD00B9 /* Pods-TouTiao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74355EC21CCA439B0029999B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				74355EC31CCA43BA0029999B /* EventMonitor.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0632F8CD1E8681EE002A7058 /* TouTiaoLauncher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0632F8D81E8681EE002A7058 /* Build configuration list for PBXNativeTarget "TouTiaoLauncher" */;
+			buildPhases = (
+				0632F8CA1E8681EE002A7058 /* Sources */,
+				0632F8CB1E8681EE002A7058 /* Frameworks */,
+				0632F8CC1E8681EE002A7058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouTiaoLauncher;
+			productName = TouTiaoLauncher;
+			productReference = 0632F8CE1E8681EE002A7058 /* TouTiaoLauncher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0673B7361CAE2D06001FBF40 /* TouTiao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0673B75A1CAE2D06001FBF40 /* Build configuration list for PBXNativeTarget "TouTiao" */;
+			buildPhases = (
+				52B0ED3AB7C7A3109812DE9C /* [CP] Check Pods Manifest.lock */,
+				0673B7331CAE2D06001FBF40 /* Sources */,
+				0673B7341CAE2D06001FBF40 /* Frameworks */,
+				0673B7351CAE2D06001FBF40 /* Resources */,
+				B91C8649C7C920E3ADBF3C3D /* [CP] Embed Pods Frameworks */,
+				92770A1D9D011A674360C60F /* [CP] Copy Pods Resources */,
+				0632F8E31E86835A002A7058 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0632F8E01E8682F8002A7058 /* PBXTargetDependency */,
+			);
+			name = TouTiao;
+			productName = TouTiao;
+			productReference = 0673B7371CAE2D06001FBF40 /* TouTiao.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0673B7451CAE2D06001FBF40 /* TouTiaoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0673B75D1CAE2D06001FBF40 /* Build configuration list for PBXNativeTarget "TouTiaoTests" */;
+			buildPhases = (
+				0673B7421CAE2D06001FBF40 /* Sources */,
+				0673B7431CAE2D06001FBF40 /* Frameworks */,
+				0673B7441CAE2D06001FBF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0673B7481CAE2D06001FBF40 /* PBXTargetDependency */,
+			);
+			name = TouTiaoTests;
+			productName = TouTiaoTests;
+			productReference = 0673B7461CAE2D06001FBF40 /* TouTiaoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0673B7501CAE2D06001FBF40 /* TouTiaoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0673B7601CAE2D06001FBF40 /* Build configuration list for PBXNativeTarget "TouTiaoUITests" */;
+			buildPhases = (
+				0673B74D1CAE2D06001FBF40 /* Sources */,
+				0673B74E1CAE2D06001FBF40 /* Frameworks */,
+				0673B74F1CAE2D06001FBF40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0673B7531CAE2D06001FBF40 /* PBXTargetDependency */,
+			);
+			name = TouTiaoUITests;
+			productName = TouTiaoUITests;
+			productReference = 0673B7511CAE2D06001FBF40 /* TouTiaoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0673B72F1CAE2D06001FBF40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tesths;
+				TargetAttributes = {
+					0632F8CD1E8681EE002A7058 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UTN47S84JC;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					0673B7361CAE2D06001FBF40 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = K689CLXJBK;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+					0673B7451CAE2D06001FBF40 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = 0673B7361CAE2D06001FBF40;
+					};
+					0673B7501CAE2D06001FBF40 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
+						TestTargetID = 0673B7361CAE2D06001FBF40;
+					};
+				};
+			};
+			buildConfigurationList = 0673B7321CAE2D06001FBF40 /* Build configuration list for PBXProject "TouTiao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0673B72E1CAE2D06001FBF40;
+			productRefGroup = 0673B7381CAE2D06001FBF40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0673B7361CAE2D06001FBF40 /* TouTiao */,
+				0673B7451CAE2D06001FBF40 /* TouTiaoTests */,
+				0673B7501CAE2D06001FBF40 /* TouTiaoUITests */,
+				0632F8CD1E8681EE002A7058 /* TouTiaoLauncher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0632F8CC1E8681EE002A7058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0632F8D31E8681EE002A7058 /* Assets.xcassets in Resources */,
+				0632F8D61E8681EE002A7058 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673B7351CAE2D06001FBF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74D0AD2C1CC7A47F00126706 /* PopViewController.xib in Resources */,
+				0632F8DE1E8682F8002A7058 /* TouTiaoLauncher.app in Resources */,
+				0673B73D1CAE2D06001FBF40 /* Assets.xcassets in Resources */,
+				0673B7401CAE2D06001FBF40 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673B7441CAE2D06001FBF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673B74F1CAE2D06001FBF40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52B0ED3AB7C7A3109812DE9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		92770A1D9D011A674360C60F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouTiao/Pods-TouTiao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B91C8649C7C920E3ADBF3C3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TouTiao/Pods-TouTiao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0632F8CA1E8681EE002A7058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0632F8D11E8681EE002A7058 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673B7331CAE2D06001FBF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06541A2E1CBB61B2004312AC /* NetWorkFetcher.swift in Sources */,
+				0673B7681CAE32E1001FBF40 /* MainViewController.swift in Sources */,
+				74D0AD2B1CC7A47F00126706 /* PopViewController.swift in Sources */,
+				7484FE161CCF72B300560763 /* SettingMenuAction.swift in Sources */,
+				7484FE131CCF692300560763 /* NSDate+Extension.swift in Sources */,
+				06541A2B1CBB6074004312AC /* TTModel.swift in Sources */,
+				74355EC41CCA43BA0029999B /* EventMonitor.swift in Sources */,
+				0632F8C91E866CDE002A7058 /* TTButton.swift in Sources */,
+				0673B73B1CAE2D06001FBF40 /* AppDelegate.swift in Sources */,
+				06953AEE1CBCB3040001D698 /* String+Extension.swift in Sources */,
+				74E7E49B1CCCB64B00DCAE46 /* TTCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673B7421CAE2D06001FBF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0673B74B1CAE2D06001FBF40 /* TouTiaoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0673B74D1CAE2D06001FBF40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0673B7561CAE2D06001FBF40 /* TouTiaoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0632F8E01E8682F8002A7058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0632F8CD1E8681EE002A7058 /* TouTiaoLauncher */;
+			targetProxy = 0632F8DF1E8682F8002A7058 /* PBXContainerItemProxy */;
+		};
+		0673B7481CAE2D06001FBF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0673B7361CAE2D06001FBF40 /* TouTiao */;
+			targetProxy = 0673B7471CAE2D06001FBF40 /* PBXContainerItemProxy */;
+		};
+		0673B7531CAE2D06001FBF40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0673B7361CAE2D06001FBF40 /* TouTiao */;
+			targetProxy = 0673B7521CAE2D06001FBF40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0632F8D41E8681EE002A7058 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0632F8D51E8681EE002A7058 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		0673B73E1CAE2D06001FBF40 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0673B73F1CAE2D06001FBF40 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0632F8D91E8681EE002A7058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = TouTiaoLauncher/TouTiaoLauncher.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UTN47S84JC;
+				INFOPLIST_FILE = TouTiaoLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesths.TouTiaoLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0632F8DA1E8681EE002A7058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_ENTITLEMENTS = TouTiaoLauncher/TouTiaoLauncher.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = UTN47S84JC;
+				INFOPLIST_FILE = TouTiaoLauncher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tesths.TouTiaoLauncher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0673B7581CAE2D06001FBF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0673B7591CAE2D06001FBF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		0673B75B1CAE2D06001FBF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57BAB250D52BE0BE8AE45323 /* Pods-TouTiao.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TouTiao/TouTiao.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K689CLXJBK;
+				INFOPLIST_FILE = TouTiao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt.TouTiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0673B75C1CAE2D06001FBF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 975E04C1B55E348097BD00B9 /* Pods-TouTiao.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TouTiao/TouTiao.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = K689CLXJBK;
+				INFOPLIST_FILE = TouTiao/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tt.TouTiao;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0673B75E1CAE2D06001FBF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouTiaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouTiao.app/Contents/MacOS/TouTiao";
+			};
+			name = Debug;
+		};
+		0673B75F1CAE2D06001FBF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouTiaoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiaoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouTiao.app/Contents/MacOS/TouTiao";
+			};
+			name = Release;
+		};
+		0673B7611CAE2D06001FBF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouTiaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TouTiao;
+			};
+			name = Debug;
+		};
+		0673B7621CAE2D06001FBF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TouTiaoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tesths.TouTiaoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TouTiao;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0632F8D81E8681EE002A7058 /* Build configuration list for PBXNativeTarget "TouTiaoLauncher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0632F8D91E8681EE002A7058 /* Debug */,
+				0632F8DA1E8681EE002A7058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0673B7321CAE2D06001FBF40 /* Build configuration list for PBXProject "TouTiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0673B7581CAE2D06001FBF40 /* Debug */,
+				0673B7591CAE2D06001FBF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0673B75A1CAE2D06001FBF40 /* Build configuration list for PBXNativeTarget "TouTiao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0673B75B1CAE2D06001FBF40 /* Debug */,
+				0673B75C1CAE2D06001FBF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0673B75D1CAE2D06001FBF40 /* Build configuration list for PBXNativeTarget "TouTiaoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0673B75E1CAE2D06001FBF40 /* Debug */,
+				0673B75F1CAE2D06001FBF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0673B7601CAE2D06001FBF40 /* Build configuration list for PBXNativeTarget "TouTiaoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0673B7611CAE2D06001FBF40 /* Debug */,
+				0673B7621CAE2D06001FBF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0673B72F1CAE2D06001FBF40 /* Project object */;
+}

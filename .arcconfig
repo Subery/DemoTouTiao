@@ -1,0 +1,10 @@
+
+{
+  "phabricator.uri" : "http://pha.sanpintian.com:8081", # 相应的phbricator主机地址
+  "editor": "vim", # 打开方式
+  "base": "git:HEAD^",# 相应的 git 节点，设置为最新git节点
+  "arc.feature.start.default": "develop", # 起始 git 分支
+  "arc.land.onto.default": "develop", # push 到的 目标分支
+  "arc.land.update.default": "rebase", # land 的方式
+  "history.immutable": false
+}i
